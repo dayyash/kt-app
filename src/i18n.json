@@ -1,0 +1,22 @@
+{
+  "en": {
+    "translation": {
+      "home-page": {
+        "button": {
+          "admin": "Admin",
+          "client": "Client"
+        }
+      },
+      "client-page": {
+        "button": {
+          "submit": "Check In"
+        },
+        "label": {
+          "first-name": "First Name",
+          "last-name": "Last Name",
+          "time-in": "Time In"
+        }
+      }
+    }
+  }
+}

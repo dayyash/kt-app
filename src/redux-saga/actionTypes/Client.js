@@ -1,0 +1,8 @@
+const CLIENT_ACTION_TYPES = {
+  STATE: {
+    WAITING: 'WAITING',
+  },
+  CLIENT_INFO: 'CLIENT_INFO'
+};
+
+export default CLIENT_ACTION_TYPES;
