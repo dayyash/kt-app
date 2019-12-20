@@ -10,12 +10,13 @@
       "client-page": {
         "button": {
           "submit": "Check In"
-        },
-        "label": {
-          "first-name": "First Name",
-          "last-name": "Last Name",
-          "time-in": "Time In"
         }
+      },
+      "label": {
+        "first-name": "First Name",
+        "last-name": "Last Name",
+        "time-in": "Time Checked In",
+        "status": "Status"
       }
     }
   }

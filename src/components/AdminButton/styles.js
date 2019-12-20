@@ -1,25 +1,33 @@
+import theme from "../../themes/theme";
+
+const {
+  colors: { white_text, admin_button, client_button, checkin_button }
+} = theme;
+
 const styles = {
   adminButton: {
-    backgroundColor: "rgba(0, 30, 255, 0.75)",
+    backgroundColor: admin_button,
     width: "8em",
     borderRadius: "3.5em",
-    color: "white",
+    color: white_text,
     fontSize: "1.5em",
-    padding: "0.5em 1em",
-    },
+    padding: "0.5em 1em"
+  },
   clientButton: {
-    backgroundColor: "rgba(255, 0, 0, 0.75)",
+    backgroundColor: client_button,
     width: "8em",
     borderRadius: "3.5em",
-    color: "white",
+    color: white_text,
     fontSize: "1.5em",
-    padding: "0.5em 1em",
+    padding: "0.5em 1em"
   },
   checkInButton: {
-    backgroundColor: "green"
+    backgroundColor: checkin_button,
+    width: "8em",
+    fontSize: "1.5em"
   },
   checkInInput: {
-    backgroundColor: "rgba(0, 255, 76, 0.75)",
+    backgroundColor: "rgb(255, 255, 255)"
   }
 };
 

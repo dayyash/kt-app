@@ -8,9 +8,9 @@ import { appStore } from "./redux-saga/store";
 import { Provider } from "react-redux";
 
 ReactDOM.render(
-  // <Provider store={appStore}>
+  <Provider store={appStore}>
     <App />,
-  // </Provider>,
+  </Provider>,
   document.getElementById("root")
 );
 

@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { CheckInInput, CheckInButton } from "../../components";
+import { CheckInInput, WaitingListTable } from "../../components";
 import { withStyles } from "@material-ui/core";
 import styles from "../HomePage/style";
 
@@ -12,9 +12,9 @@ class Client extends React.Component {
       <React.Fragment>
         <div className={classes.container}>
           <CheckInInput />
-          <div className={classes.adminButton}>
-            <CheckInButton />
-          </div>
+        </div>
+        <div className={classes.container}>
+          <WaitingListTable />
         </div>
       </React.Fragment>
     );

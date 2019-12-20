@@ -6,7 +6,7 @@ import { withStyles } from "@material-ui/core/styles";
 import { Button } from "@material-ui/core";
 import styles from "./styles";
 
-const Admin = ({ classes, t }) => {
+const AdminButton = ({ classes, t }) => {
   const onClick = () => {
     navigate("admin");
   };
@@ -20,9 +20,9 @@ const Admin = ({ classes, t }) => {
   );
 };
 
-Admin.propTypes = {
+AdminButton.propTypes = {
   classes: PropTypes.object.isRequired,
-  t: PropTypes.func.isRequired
+  t: PropTypes.func.isRequired,
 };
 
-export default withStyles(styles)(withTranslation()(Admin));
+export default withStyles(styles)(withTranslation()(AdminButton));
